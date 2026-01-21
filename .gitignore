@@ -1,1 +1,11 @@
+# Bỏ qua thư mục môi trường ảo (tên thư mục venv của bạn)
 venv/
+env/
+.venv/
+
+# Bỏ qua các file rác sinh ra khi chạy code
+__pycache__/
+*.pyc
+
+# Bỏ qua file cấu hình môi trường (chứa mật khẩu, key...)
+.env
